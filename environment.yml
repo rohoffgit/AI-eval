@@ -1,0 +1,17 @@
+name: eval
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - pip:
+    - ipykernel
+    - IProgress
+    - python-dotenv
+    - azure-identity
+    - azure-ai-projects
+    - azure-ai-ml 
+    - azure-ai-evaluation
+    - azure-ai-inference[opentelemetry]
+    - azure-monitor-opentelemetry
+    - azure-monitor-query
+    - azure-applicationinsights

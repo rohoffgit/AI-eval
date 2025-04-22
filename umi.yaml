@@ -1,0 +1,5 @@
+identity:
+    type: system_assigned,user_assigned
+    tenant_id: 7383a4c2-32e9-4920-8a91-36a6ac3ce4d2
+    user_assigned_identities:
+        '/subscriptions/c11caebe-ea81-4036-9e58-ccf406d87ead/resourceGroups/sbn-ai-prod-swc/providers/Microsoft.ManagedIdentity/userAssignedIdentities/sbn-mi-prod-swc-ai': {}
