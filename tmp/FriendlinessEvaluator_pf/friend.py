@@ -1,8 +1,6 @@
 import os
 import json
-import sys
 from promptflow.client import load_flow
-from promptflow.connections import AzureOpenAIConnection
 
 class FriendlinessEvaluator:
     def __init__(self, model_config):
@@ -10,6 +8,7 @@ class FriendlinessEvaluator:
         prompty_path = os.path.join(current_dir, "friendliness.prompty")
         self._flow = load_flow(source=prompty_path, model={"configuration": model_config})
 
+    # A class is made a callable my implementing the special method __call__
     def __call__(self, *, response: str, **kwargs):
         llm_response = self._flow(response=response)
         try:

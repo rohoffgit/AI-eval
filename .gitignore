@@ -1,3 +1,5 @@
 README.md
 tmp/
-99_synthetic.ipynb
+.env
+.env_*
+private.env

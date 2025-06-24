@@ -1,2 +1,0 @@
-{ "query":"Which tent is the most waterproof?", "context":"The Alpine Explorer Tent is the second most water-proof of all tents available.", "response":"The Alpine Explorer Tent is the most waterproof.", "ground_truth":"The Hydrophobe Uno Tent." }
-{ "query":"Which tent is the most jacket?", "context":"No jacket is absolutely water proof.", "response":"The Hydrophobe Jacko Uno.", "ground_truth":"The Hydrophobe Jacko Uno." }

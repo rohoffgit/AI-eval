@@ -2,16 +2,27 @@ name: eval
 channels:
   - defaults
 dependencies:
-  - python=3.12
+  # https://learn.microsoft.com/en-us/azure/developer/python/get-started#write-your-python-app
+  - python>=3.8,<4.0
   - pip:
     - ipykernel
     - IProgress
     - python-dotenv
     - azure-identity
-    - azure-ai-projects
+    - azure-ai-projects==1.0.0b10
     - azure-ai-ml 
     - azure-ai-evaluation
     - azure-ai-inference[opentelemetry]
     - azure-monitor-opentelemetry
+    - azure-monitor-opentelemetry-exporter
     - azure-monitor-query
     - azure-applicationinsights
+    - promptflow
+    - tabulate
+    - langchain
+    - langchain-openai
+    - langchain-community
+    - rich
+    - scipy==1.15.3
+    - statsmodels
+    - pandas
