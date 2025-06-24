@@ -1,4 +1,4 @@
-# Pitfalls
+# Some random pitfalls
 
 ## Connections to AI models must use KEY authentication for cloud evaluations to succeed
 Or else an error may occur, which can be seen from the ml.azure.com studio:
