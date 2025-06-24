@@ -22,3 +22,12 @@ conda deactivate
 conda remove -n azureai_py3_12 --all
 conda create -n azureai_py3_12 python=3.12
 NOTE: restart VScode to take effect
+
+# Storage account permissions
+Operation returned an invalid status 'Key based authentication is not permitted on this storage account.'
+- Either enable Key access in portal on storage account or change connection to use Entra with role 'Storage Blob Contributor' on storage account. Connection must be changed in AI Foundry too for this to work.
+
+# Storage access failure
+HttpResponseError: Operation returned an invalid status 'This request is not authorized to perform this operation.'
+ErrorCode:AuthorizationFailure
+- Make sure Network access is enabled or possible in Azure Portal on storage account.
