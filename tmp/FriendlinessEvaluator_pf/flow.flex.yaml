@@ -1,7 +1,0 @@
-inputs:
-  response:
-    type: string
-init:
-  model_config:
-    type: object
-entry: friend:FriendlinessEvaluator
